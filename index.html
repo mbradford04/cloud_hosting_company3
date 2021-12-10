@@ -12,56 +12,43 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="block block--dark block--skewed-right">
+    <section class="block">
         <header class="block__header">
-            <h2>User-friendly Control Panel</h2>
+            <h2>What Our Customers Are Saying </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, magni!</p>
         </header>
-        <div class="container grid grid--1x2">
-            <img class="block-showcase__image" src="images/ipad.png" alt="ipad">
-            <ul>
-                <li>
-                    <div class="media">
-                        <div class="media__image">
-                            <svg class="icon icon--primary">
-                                <use xlink:href="images/sprite.svg#snap"></use>
-                            </svg>
-                        </div>
-                        <div class="media__body">
-                            <h3 class="media__title"> Easy Start & Managed Updates</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto modi fugiat perspiciatis, ipsa voluptate aliquid.</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="media">
-                        <div class="media__image">
-                                <svg class="icon icon--primary">
-                                    <use xlink:href="images/sprite.svg#snap"></use>
-                                  </svg>
-                        </div>
-                        <div class="media__body">
-                            <h3 class="media__title">Staging, GIT & WP-CLI</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nihil quae voluptates quo corporis 
-                                voluptatem vero in omnis ut nulla.</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="media">
-                        <div class="media__image">
-                                <svg class="icon icon--primary">
-                                    <use xlink:href="images/sprite.svg#snap"></use>
-                                  </svg>
-                        </div>
-                        <div class="media__body">
-                            <h3 class="media__title">Dynamic Caching & More</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nihil quae voluptates quo corporis 
-                                voluptatem vero in omnis ut nulla.</p>
-                        </div>
-                    </div>
-                </li>
-                
-            </ul>
+        <div class="container">
+          <div class="card testimonial">
+              <div class="grid grid--1x2">
+                  <div class="testimonial__image">
+                      <img  src="images/testimonial.jpg" alt="happy customer">
+                      <span class="icon-container icon-container--accent">
+                       <svg class="icon icon--white icon--small">   
+                           <use xlink:href="images/sprite.svg#quotes"></use>
+                         </svg>
+                   </span>
+                   </div>
+                   <blockquote class="quote">
+                      <p class="quote__text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero culpa nesciunt, animi cupiditate 
+                          doloremque numquam odio ducimus quia quaerat dolores!
+                      </p>
+                      <footer>
+                          <div class="media">
+                              <div class="media__image">
+                                      <svg class="icon icon--primary quote__line">
+                                          <use xlink:href="images/sprite.svg#line"></use>
+                                        </svg>
+                              </div>
+                              <div class="media__body">
+                                  <h3 class="media__title quote__author">Mark Agelo</h3>
+                                  <p class="quote__organization">ABC Company</p>
+                              </div>
+                          </div>
+                      </footer>
+                  </blockquote>
+              </div>
+          </div>
         </div>
     </section>
     <script src="main.js"></script>
